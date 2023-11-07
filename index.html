@@ -4,10 +4,105 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Tables and Forms</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <main>
-      <!-- Complete the Exercises HERE -->
+      <H1> Soda Information</H1>
+      <section>
+      <table>
+        <thead>
+          <tr> 
+           <th>Soda</th>
+           <th>Total Servings</th>
+           <th>Serving size</th>
+           <th>Calories per serving</th>
+           <th>Carbs per serving</th>
+           <th>Sugars per serving</th>
+           <th>Sodium per serving</th>
+          </tr>
+        </thead>
+        <tbody>
+         <tr>  
+           <th>Coco-Cola</th>
+           <td>Serving</td>
+           <td>12</td>
+           <td>95</td>
+           <td>24</td>
+           <td>24</td>
+           <td>10</td>
+         </tr>
+         <tr>  
+           <th>Coke Zero</th>
+           <td>1</td>
+           <td>12 oz</td>
+           <td>0</td>
+           <td>0</td>
+           <td>0</td>
+           <td>40mg</td>
+         </tr>
+         <tr>  
+           <th>Mountain Dew</th>
+           <td>1</td>
+           <td>12 oz</td>
+           <td>160</td>
+           <td>46g</td>
+           <td>46g</td>
+           <td>55mg</td>
+         </tr>
+         <tr>  
+           <th>Dr.Pepper</th>
+           <td>1</td>
+           <td>12 oz</td>
+           <td>150</td>
+           <td>40</td>
+           <td>39g</td>
+           <td>55mg</td>
+         </tr>
+         <tr>  
+           <th>Pepsi</th>
+           <td>1</td>
+           <td>12 oz</td>
+           <td>150</td>
+           <td>41g</td>
+           <td>41g</td>
+           <td>96g</td>
+         </tr>
+        </tbody>
+      </table>
+      </section>
+      </main>
+      <section>
+        <form>
+           <div> 
+              <label for="Drink">Drink</label>
+              <input type="text" id="Drink" placeholder="Come">
+          </div>
+          <div>
+              <label for="Serving">Serving</label>
+              <input type="text" id="Serving" placeholder="Pick">
+          </div>
+          <div>
+              <label for="Cals">Calories</label>
+              <input type="text" id="Calories per serving"placeholder= "Your">
+          </div>
+          <div>
+              <label for="Carbs">Carbs per serving</label>
+              <input type="text" id="Carbs per serving"placeholder=Thirst>
+          </div>
+          <div>
+              <label for="sugars">Sugar per serving</label>
+              <input type="text" id="Sugars per serving" placeholder="Quencher">
+          </div>
+          <div> 
+              <label for="Sodium">Sodium Per serving</label>
+              <input type="text" id="Sodium Per Serving" placeholder="Ya dig?">
+          </div>
+          <button> Submit your intake</button>
+        </form>
+      </section>
+      </main>
+    </main>
     </main>
   </body>
 </html>
